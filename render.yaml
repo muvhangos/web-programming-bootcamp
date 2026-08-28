@@ -1,0 +1,6 @@
+﻿services:
+  - type: web
+    name: simple-service-booking
+    runtime: python
+    buildCommand: pip install -r requirements.txt && bash build.sh
+    startCommand: gunicorn config.wsgi:application
