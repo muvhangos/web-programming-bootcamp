@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Service Booking</title>
+</head>
+
+<body>
+
+```
+<h1>Simple Service Booking</h1>
+
+<form method="POST">
+    {% csrf_token %}
+
+    <p>
+        <label for="customer_name">Customer Name:</label><br>
+        <input type="text" id="customer_name" name="customer_name" required>
+    </p>
+
+    <p>
+        <label for="service">Service:</label><br>
+        <input type="text" id="service" name="service" required>
+    </p>
+
+    <p>
+        <label for="booking_date">Booking Date:</label><br>
+        <input type="date" id="booking_date" name="booking_date" required>
+    </p>
+
+    <button type="submit">Book Service</button>
+</form>
+```
+
+</body>
+</html>

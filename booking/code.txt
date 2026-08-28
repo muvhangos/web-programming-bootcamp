@@ -1,0 +1,92 @@
+# Simple Service Booking System – Use Case
+
+## 1. Project Name
+
+Simple Service Booking System
+
+## 2. Purpose
+
+The Simple Service Booking System is a small web application designed to allow users to book a service online.
+
+The system helps a small service business manage customer bookings without using paper records or receiving all bookings manually through phone calls or messages.
+
+## 3. Problem Statement
+
+Small businesses often manage customer bookings manually. This can cause double bookings, lost information, and difficulty tracking customer requests.
+
+The Simple Service Booking System provides a simple online solution where users can create and view their bookings.
+
+## 4. Users of the System
+
+The system has two user roles.
+
+### Customer/User
+
+The customer can:
+
+* Register an account
+* Login
+* Create a booking
+* Select a booking date
+* Add a service description
+* View their own bookings
+
+### Administrator
+
+The administrator can:
+
+* Login to the Django admin system
+* View all bookings
+* View customer information
+* Approve or reject bookings
+* Manage the booking status
+
+## 5. Main Features
+
+The system will include the following features:
+
+1. User registration and login
+2. User logout
+3. Create a booking
+4. View personal bookings
+5. Administrator booking management
+6. Booking status management
+
+## 6. Use Case Flow
+
+### Customer Booking
+
+1. The customer opens the website.
+2. The customer registers or logs into the system.
+3. The customer selects the booking option.
+4. The customer enters the booking information.
+5. The system saves the booking.
+6. The customer can view their booking history.
+
+### Administrator Management
+
+1. The administrator logs into the Django admin system.
+2. The administrator views all customer bookings.
+3. The administrator reviews a booking.
+4. The administrator changes the booking status.
+5. The updated status is saved in the system.
+
+## 7. Benefits
+
+The system will:
+
+* Reduce manual booking work
+* Keep booking information organised
+* Allow customers to book online
+* Allow administrators to manage bookings easily
+* Demonstrate Django authentication, database models, user roles, and administration
+
+## 8. Scope
+
+This project is intentionally kept small for educational purposes.
+
+The system will focus only on user authentication and service bookings. Features such as online payments, notifications, and complex reporting are outside the scope of this project.
+
+## Conclusion
+
+The Simple Service Booking System is a small Django enterprise application with two user roles: Customer and Administrator. It demonstrates authentication, database management, user permissions, and CRUD functionality while remaining simple enough to develop, test, and deploy within the project timeframe.
