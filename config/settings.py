@@ -1,12 +1,22 @@
+import os
+from pathlib import Path
+
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    os.environ.get("RENDER_EXTERNAL_HOSTNAME", ""),
+]
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9bwk==ri#^9f#!!x)qs#xg@d%gq49$xkbo_=$m9o(fmtbg2^a9'
 
 DEBUG = True
-
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    "127.0.0.1",
+    "localhost",
+    "simple-service-booking.onrender.com",
+]
 INSTALLED_APPS = [
 'django.contrib.admin',
 'django.contrib.auth',
